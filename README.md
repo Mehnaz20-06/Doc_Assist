@@ -17,4 +17,12 @@ The project follows this flow:
 8. The LLM generates an answer using only the retrieved document context.
 9. python app.py on powershell then open http://127.0.0.1:5000
 
-
+**Technologies Used**
+Python
+LangChain
+ChromaDB
+Hugging Face sentence-transformers
+Ollama
+phi3:mini
+Flask
+HTML/CSS
