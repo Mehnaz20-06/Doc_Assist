@@ -15,7 +15,14 @@ The project follows this flow:
 6. When the user asks a question, `query_data.py` searches Chroma for the most relevant chunks.
 7. The retrieved context is sent to Ollama running `phi3:mini`.
 8. The LLM generates an answer using only the retrieved document context.
-9. python app.py on powershell then open http://127.0.0.1:5000
+9. Run the flask app (bash) : python app.py on powershell  
+10. open http://127.0.0.1:5000
+
+## 🖥️ Demo
+
+<p align="center">
+  <img src="images/UI.png" width="700"/>
+</p>
 
 ## Tech Stack
 
